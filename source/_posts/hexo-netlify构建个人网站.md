@@ -1,7 +1,9 @@
 ---
 title: hexo+netlify构建个人网站
 date: 2019-04-24 16:09:38
+category: hexo
 tags:
+    - hexo
 ---
 
 本站点就是根据以下教程搭建，十分简单，5分钟搞定，希望对想搭建个人网站的同学有用~
