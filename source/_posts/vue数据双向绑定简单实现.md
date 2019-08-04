@@ -2,7 +2,9 @@
 title: vue数据双向绑定简单实现
 date: 2019-08-03 12:32:34
 categories: js
-tags: vue 数据绑定
+tags: 
+    - vue
+    - 数据绑定
 ---
 
 不同于angular的脏检测机制，vue通过对象劫持来实现数据双向绑定
