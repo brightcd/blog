@@ -11,7 +11,7 @@ tags:
 
 今天是一个开始，从threejs入手，来一个Get Start吧
 
-[ThreeJS官网](https://threejs.org/)
+[ThreeJS官网](https://threejs.org/)(有[中文](https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene)哈)
 
 我们的目标是绘制一个旋转的立方体
 
@@ -75,6 +75,8 @@ html代码：
 ### 简单的坐标世界
 
 我们的场景中是一个三维世界，场景的中央为原点（0，0，0），X轴方向从左到右，Y轴方向从下到上，Z轴方向从远到近（不知道这样大家能不能理解）
+
+{% asset_img location.png Markdown Preview Enhanced %}
 
 ### 编写绘制相关代码
 
