@@ -16,7 +16,7 @@ tags:
 ```js
     // position = {x: 1}
     var tween = new TWEEN.Tween(position)
-    .wait(100) // 等待100ms
+    .delay(100) // 等待100ms
     .to({x: 200}, 1000) // 1s时间，x到200
     .onUpdate(render) // 变更期间执行render方法
     .onComplete(() => {
@@ -38,7 +38,7 @@ tags:
 
 ## 缓动类型
 
-tweenjs最强大的地方在于提供了很多常用的缓动动画类型，由api ease()指定，tweenjs本质就是一系列缓动函数算法，因此可以结合canvas、threejs很简单就能实现很多效果。
+tweenjs最强大的地方在于提供了很多常用的缓动动画类型，由api easing()指定，tweenjs本质就是一系列缓动函数算法，因此可以结合canvas、threejs很简单就能实现很多效果。
 
 ## 链式调用
 
